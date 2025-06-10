@@ -1,5 +1,9 @@
 public class Conversor {
     public static void main(String[] args) {
-        System.out.println("Conversor de Divisas Iniciado");
+        double euros = 100;
+        double tasaCambio = 1.10; // EUR a USD
+        double dolares = euros * tasaCambio;
+
+        System.out.println(euros + " EUR son " + dolares + " USD");
     }
 }
