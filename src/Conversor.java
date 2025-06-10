@@ -6,5 +6,6 @@ public class Conversor {
 
         System.out.println("Inicio del Conversor");
         System.out.println(euros + " EUR son " + dolares + " USD");
+        System.out.println("Conversión ejecutada con éxito");
     }
 }
